@@ -7,11 +7,11 @@ gem 'rails', '3.2.1'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'cucumber-rails'
-  gem 'cucumber-rails-training-wheels'
   gem 'database_cleaner'
   gem 'capybara'
   gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'cucumber-rails-training-wheels'
 end
 group :production do
   gem 'pg'
