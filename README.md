@@ -50,7 +50,7 @@ What do I need:
   - indication of whether this is learning or production
   - log start time
 * I need to be able to mark that I have stopped working on that for the moment
-* I need to be able to see a report showing production vs learing time.
+* I need to be able to see a report showing production vs learning time.
 
 So, that translates to:
 
@@ -60,4 +60,4 @@ So, that translates to:
 
 That should be simple enough.  I will implement that and start using it and then can assess what the next 
 feature set should be.
-  
+  -+
