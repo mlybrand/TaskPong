@@ -1,4 +1,12 @@
 TaskPong::Application.routes.draw do
+  get "static_pages/home"
+
+  root :to => 'static_pages#home'
+
+  resources :users
+ 
+  match "/signup", to: "users#new", as: :signup
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
